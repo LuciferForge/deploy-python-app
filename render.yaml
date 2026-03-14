@@ -1,0 +1,17 @@
+# Render configuration — render.com
+# Docs: https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: my-python-app
+    runtime: python
+    buildCommand: ""  # No build needed — zero dependencies
+    startCommand: python3 app.py
+    healthCheckPath: /health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_NAME
+        value: my-python-app
+      - key: PORT
+        value: 8000

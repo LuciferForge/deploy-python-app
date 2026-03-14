@@ -1,0 +1,16 @@
+# Local development with Docker
+# docker compose up
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_ENV=development
+      - APP_NAME=my-python-app
+      - DEBUG=true
+      - PORT=8000
+    volumes:
+      - .:/app  # Live reload during development
+    restart: unless-stopped
