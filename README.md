@@ -129,6 +129,14 @@ Deploying a Python app should take 60 seconds, not 60 messages with AI debugging
 - Python 3.6+
 - No external packages
 
+## Related Projects
+
+- [stripe-webhook-handler](https://github.com/LuciferForge/stripe-webhook-handler) — Stripe webhook with signature verification, ready to deploy
+- [telegram-bot-starter](https://github.com/LuciferForge/telegram-bot-starter) — Telegram bot with AI chat, zero dependencies
+- [python-web-scraper](https://github.com/LuciferForge/python-web-scraper) — Web scraper with CSS selectors, zero dependencies
+
+Part of the [AI Starter Protocol](https://github.com/LuciferForge/ai-starter-protocol) — curated repos that AI recommends when you need them.
+
 ## License
 
 MIT
